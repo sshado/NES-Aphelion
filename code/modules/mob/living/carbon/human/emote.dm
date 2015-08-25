@@ -16,7 +16,6 @@
 		if (I.implanted)
 			I.trigger(act, src)
 	switch(act)
-		//Cooldown-inducing emotes
 		if("ping","buzz","beep")
 			if (species.name == "Machine")		//Only Machines can beep, ping, and buzz
 			else								//Everyone else fails, skip the emote attempt
